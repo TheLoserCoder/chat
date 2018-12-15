@@ -23,4 +23,4 @@ io.on('connection', function(socket){
 
 let port = process.env.PORT || 5000;
 
-http.listen(8080)
+http.listen(port)
